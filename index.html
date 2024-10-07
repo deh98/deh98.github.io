@@ -1,7 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dehao Lin</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src = 'script.js'></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/icons/favicon.svg">
+    <meta name="google-site-verification" content="BiMbjvOeqE5uPI1JHAVuahSJ-Cybkcw7AXW-nj-yu9s" />
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <section class = 'top-header'>
+        <a class = 'name' href = "index.html">Dehao Lin</h1>
+        <section class = 'wide-sections'>
+            <a class = 'section-text' style = 'left: 50px' href = 'sections/aboutme.html'>about me</a>
+            <a class = 'section-text' style = 'left: 150px' href = 'sections/projects.html'>projects</a>
+            <a class = 'section-text' style = 'right: 50px' href = 'sections/contact.html'>contact</a>
+        </section>
+        <button class = 'hamburger-menu' onclick = 'expand_menu()'>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </section>
+    <div id="myNav" class="overlay">
+        <a class="closebtn" onclick="close_menu()">&times;</a>
+        <div class="overlay-content">
+            <a href="sections/aboutme.html">about me</a>
+            <a href="sections/projects.html">projects</a>
+            <a href="sections/contact.html">contact</a>
+        </div>
+    </div>
+
+    <section class = "intro">
+        <div class = "container" data-aos = "fade-up" data-aos-duration = "1000">
+            <div class = "left-text-container">
+                <h1 class = 'title-text'>I am a mechanical engineer.<br>By <span class = 'day'>day</span>, I delve into my books;<br>by <span class = 'night'>night</span>, I gaze up at the stars.<br>One day, I hope to set afoot on our companion, <span class = 'grey'>the Moon.</span></h1>
+            </div>
+            <div class = "img-container">
+                <img id = 'intro-image' src="assets/landing_page/earthrise.jpeg">
+            </div>
+        </div>
+    </section>
+    <hr/>
+
+    <section class = "hp-subsections" id = "projects">
+
+        <div class = "container" data-aos = "fade-up" data-aos-duration = "1000">
+            <div class = "img-container">
+                <a href = "sections/projects.html"><img id = 'intro-image' src="assets/landing_page/with_glove.png"></a>
+            </div>
+            <div class = "right-text-container">
+                <a href = "sections/projects.html" style = "color: black;"><h1 class = 'text-container-title'>projects</h1></a>
+                <h1 class = 'title-text'>I've done a variety of fun projects, from prototyping a sign language detection glove to coding an neuro-evolutionary algorithm to find the optimal neural network. Find out more <a href = 'sections/projects.html' style = "color: black;">here</a>!</h1>
+            </div>
+        </div>
+    </section>
+    <hr/>
+
+    <section class = "hp-subsections" id = "aboutme">
+
+        <div class = "container" data-aos = "fade-up" data-aos-duration = "1000">
+            <div class = "left-text-container">
+                <a href = "sections/aboutme.html" style = "color: black;"><h1 class = 'text-container-title'>about me</h1></a>
+                <h1 class = 'title-text'>My name is Dehao Lin.<br>I'm a student at the<br>University of California - San Diego, majoring in Mechanical Engineering. <br><a href = 'assets/dehaolin_resume.pdf' target = '_blank' style = "color: black">Click</a> to see my resume.</h1>
+            </div>
+            <div class = "img-container">
+                <a href = "sections/aboutme.html"><img loading = "lazy" id = 'intro-image' src="assets/landing_page/kiyomizu-2.JPG"></a>
+            </div>
+        </div>
+    </section>
+    <hr class = "bottom"/>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
