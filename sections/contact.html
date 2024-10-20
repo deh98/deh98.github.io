@@ -1,10 +1,58 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dehao Lin</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script src = '../script.js'></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" type="image/x-icon" href="../assets/icons/DL_favicon.png">
 </head>
 <body>
-    <h1>Contact Page</h1>
+    <section class = 'top-header'>
+        <a class = 'name' href = "index.html">Dehao Lin</h1>
+        <section class = 'wide-sections'>
+            <a class = 'section-text' style = 'left: 50px' href = 'sections/aboutme.html'>about me</a>
+            <a class = 'section-text' style = 'left: 170px' href = 'sections/projects.html'>projects</a>
+            <a class = 'section-text' style = 'left: 280px' href = 'sections/contact.html'>contact</a>
+        </section>
+        <button class = 'hamburger-menu' onclick = 'expand_menu()'>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </section>
+    <div id="myNav" class="overlay">
+        <a class="closebtn" onclick="close_menu()">&times;</a>
+        <div class="overlay-content">
+            <a href="sections/aboutme.html">about me</a>
+            <a href="sections/projects.html">projects</a>
+            <a href="sections/contact.html">contact</a>
+        </div>
+    </div>
+
+    <section class = "intro">
+        <div class = "container" data-aos = "fade-up" data-aos-duration = "1000">
+            <div class = "left-text-container">
+                <h1 class = 'title-text'> Contact Page</h1>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <hr>
+        <ul>
+            <a href="https://www.linkedin.com/in/dehao-lin/"> LinkedIn</a>
+            <a href="https://github.com/deh98">&#128187 GitHub</a>
+            <a href="mailto:dehao.lin0517@gmail.com">&#128236 dehao.lin0517@gmail.com</a>
+        </ul>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
