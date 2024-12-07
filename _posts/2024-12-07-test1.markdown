@@ -1,0 +1,18 @@
+---
+layout: default
+title:  "Test Post 1"
+date:   2024-12-07 01:16:05 -0800
+categories: test
+---
+In this test blog, I test the ability to post as well as font adjustment.
+
+## subtitle font
+
+see above for title font size
+
+### subsubtitle font
+
+see above for subtitle font size
+
+1. **bold**: showing words in bold letters
+2. **list**: showing number lists
