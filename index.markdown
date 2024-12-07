@@ -3,4 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: index
+title: Home
 ---
+
+  <header>
+    <h1>{{ site.title }}</h1>
+  </header>

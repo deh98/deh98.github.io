@@ -12,15 +12,22 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
   </head>
+
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-
+      <h1>{{ site.main_title }}</h1>
       {%- for page in site.pages -%}
-      <a href="{{ page.url }}" class="btn">{{ page.title | escape }}</a>&nbsp;
+        {%- unless page.url == "/404.html" or page.url contains ".css" or page.url contains ".xml" -%}
+          <a href="{{ page.url }}" class="btn">{{ page.title | escape }}</a>&nbsp;
+        {%- endunless -%}
       {%- endfor -%}
+
+      <h3 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h3>
+
+
+      
 
       {% if site.show_downloads %}
       <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
