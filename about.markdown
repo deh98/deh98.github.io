@@ -10,30 +10,46 @@ This is a project to showcase my engineering project, personal experiences, and 
 
 If you are looking for a motivated, skilled engineer, please feel free to contact me on LinkedIn.
 
-
 <div class="timeline">
   <div class="timeline-block">
-    <div class="timeline-icon">
-      <!img src="company-logo1.png" alt="Company 1 Logo">
-    </div>
     <div class="timeline-content">
-      <h3>Company Name 1</h3>
-      <h4>Position</h4>
-      <p class="duration">January 2020 - December 2023</p>
-      <p class="description">Description of your role, achievements, or responsibilities.</p>
+        <div class="company-logo">
+            <h3 class="company-header">
+                <img src="{{ site.baseurl }}/assets/images/USMCemblem.png" alt="USMC emblem" class="company-logo"> United States Marine Corps
+            </h3>
+        </div>
+        <h4>Position</h4>
+        <p class="duration">January 2017 - December 2019</p>
+        <p class="description">Description. Check out link <a href="https://www.youtube.com/" target="_blank">of demo</a>.</p>
     </div>
   </div>
 
   <div class="timeline-block">
-    <div class="timeline-icon">
-      <img src="USMCemblem.png" alt="USMC emblem">
-    </div>
     <div class="timeline-content">
-      <h3>Company Name 2</h3>
-      <h4>Position</h4>
-      <p class="duration">January 2017 - December 2019</p>
-      <p class="description">Discribtion. Check out link <a href="https://www.youtube.com/" target="_blank"> of demo</a>.</p>
+        <div class="company-logo">
+            <h3 class="company-header">
+                <img src="{{ site.baseurl }}/assets/images/USMCemblem.png" alt="USMC emblem" class="company-logo"> United States Marine Corps
+            </h3>
+        </div>
+        <h4>Position</h4>
+        <p class="duration">January 2017 - December 2019</p>
+        <p class="description">Description. Check out link <a href="https://www.youtube.com/" target="_blank">of demo</a>.</p>
     </div>
   </div>
-  <!-- Add more blocks as needed -->
+
+  <div class="timeline-block">
+    <div class="timeline-content">
+        <div class="company-logo">
+            <h3 class="company-header">
+                <img src="{{ site.baseurl }}/assets/images/USMCemblem.png" alt="USMC emblem" class="company-logo"> USMC
+            </h3>
+        </div>
+        <h4>Active Duty</h4>
+        <p class="duration">Aug 2018 - Feb 2019</p>
+        <p class="description">. Check out link <a href="https://www.youtube.com/" target="_blank">of demo</a>.</p>
+    </div>
+  </div>
+
+
+
 </div>
