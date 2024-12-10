@@ -351,9 +351,10 @@ a:hover { text-decoration: underline; }
   
 /* Timeline content box */
 .timeline-content { background-color: #27829944; border: 1px solid #278299eb;
-    border-radius: 8px; padding: 15px; position: relative;}
+    border-radius: 8px; padding: 15px; position: relative; width: auto; /* Allow the content to take necessary space */
+    max-width: none; /* Remove any width constraints */}
 
-.timeline-content h3 { margin: 0 0 5px; font-size: 1.2em; color: #0ac0ca;}
+.timeline-content h3 { margin: 0 0 5px; font-size: 1.2em; color: #000000; white-space: nowrap;}
 
 .timeline-content h4 { margin: 0 0 5px; font-size: 1em; color: #dacf0c;}
 
@@ -385,6 +386,6 @@ a:hover { text-decoration: underline; }
 .company-logo {
     width: 70px; /* Adjust size as needed */
     height: 70px; /* Adjust size as needed */
-    border-radius: 50%; /* Optional: make the image circular */
+    /*border-radius: 50%; /* Optional: make the image circular */
     display: inline-block; /* Ensure it stays inline */
 }

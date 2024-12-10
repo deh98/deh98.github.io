@@ -15,7 +15,20 @@ If you are looking for a motivated, skilled engineer, please feel free to contac
     <div class="timeline-content">
         <div class="company-logo">
             <h3 class="company-header">
-                <img src="{{ site.baseurl }}/assets/images/USMCemblem.png" alt="USMC emblem" class="company-logo"> United States Marine Corps
+                <img src="{{ site.baseurl }}/assets/images/Craitorlogo.png" alt="Craitor logo" class="company-logo"> Craitor, Inc.
+            </h3>
+        </div>
+        <h4>Position</h4>
+        <p class="duration">January 2017 - December 2019</p>
+        <p class="description">Description. Check out link <a href="https://www.youtube.com/" target="_blank">of demo</a>.</p>
+    </div>
+  </div>
+
+  <div class="timeline-block">
+    <div class="timeline-content">
+        <div class="company-logo">
+            <h3 class="company-header">
+                <img src="{{ site.baseurl }}/assets/images/MSMlogo.jpg" alt="UCLA MSM Lab logo" class="company-logo"> UCLA Mechanics of Soft Material Laboratory
             </h3>
         </div>
         <h4>Position</h4>
@@ -29,19 +42,6 @@ If you are looking for a motivated, skilled engineer, please feel free to contac
         <div class="company-logo">
             <h3 class="company-header">
                 <img src="{{ site.baseurl }}/assets/images/USMCemblem.png" alt="USMC emblem" class="company-logo"> United States Marine Corps
-            </h3>
-        </div>
-        <h4>Position</h4>
-        <p class="duration">January 2017 - December 2019</p>
-        <p class="description">Description. Check out link <a href="https://www.youtube.com/" target="_blank">of demo</a>.</p>
-    </div>
-  </div>
-
-  <div class="timeline-block">
-    <div class="timeline-content">
-        <div class="company-logo">
-            <h3 class="company-header">
-                <img src="{{ site.baseurl }}/assets/images/USMCemblem.png" alt="USMC emblem" class="company-logo"> USMC
             </h3>
         </div>
         <h4>Active Duty</h4>
