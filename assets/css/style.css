@@ -310,7 +310,7 @@ a:hover { text-decoration: underline; }
 .main-content pre code, .main-content pre tt { display: inline; max-width: initial; padding: 0; margin: 0; overflow: initial; line-height: inherit; word-wrap: normal; background-color: transparent; border: 0; }
 .main-content pre code:before, .main-content pre code:after, .main-content pre tt:before, .main-content pre tt:after { content: normal; }
 .main-content ul, .main-content ol { margin-top: 0; }
-.main-content blockquote { padding: 0 1rem; margin-left: 0; color: #819198; border-left: 0.3rem solid #dce6f0; }
+.main-content blockquote { padding: 0 1rem; margin-left: 0; color: #819198; border-left: 0.3rem solid #dce6f0 !important; position: relative;}
 .main-content blockquote > :first-child { margin-top: 0; }
 .main-content blockquote > :last-child { margin-bottom: 0; }
 .main-content table { display: block; width: 100%; overflow: auto; word-break: normal; word-break: keep-all; -webkit-overflow-scrolling: touch; }
@@ -329,3 +329,36 @@ a:hover { text-decoration: underline; }
 .site-footer-owner { display: block; font-weight: bold; }
 
 .site-footer-credits { color: #819198; }
+
+/* General timeline container styling */
+/* Creates the vertical line */
+.timeline { position: relative; margin: 20px auto; padding: 20px 0; 
+    max-width: 800px; border-left: 4px solid #326098;}
+  
+  /* Timeline block styling */
+  /* Ensures space for the line and dot */
+  .timeline-block { position: relative; margin: 20px 0; padding-left: 40px;}
+  
+  /* Dot on the vertical line */
+  .timeline-block::before { content: ''; position: absolute;
+    top: 10px; /* Align dot with the timeline */
+    left: -15px; /* Center the dot on the line */
+    width: 20px; height: 20px;
+    background-color: #398b4c;
+    border: 3px solid #aad10a; /* Dot border color */
+    border-radius: 50%; /* Makes it circular */
+  }
+  
+  /* Timeline content box */
+  .timeline-content { background-color: #278299; border: 1px solid #0ad014;
+    border-radius: 8px; padding: 15px; position: relative;}
+  
+  .timeline-content h3 { margin: 0 0 5px; font-size: 1.2em; color: #0ac0ca;}
+  
+  .timeline-content h4 { margin: 0 0 5px; font-size: 1em; color: #dacf0c;}
+  
+  .timeline-content .duration { margin: 5px 0; font-style: italic; color: #0e0606;}
+  
+  .timeline-content .description { margin: 10px 0 0; font-size: 0.9em; color: #f40606;}
+  
+  
