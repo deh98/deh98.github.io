@@ -28,7 +28,7 @@ If you are looking for a motivated, skilled engineer, please feel free to contac
     <div class="timeline-content">
         <div class="company-logo">
             <h3 class="company-header">
-                <img src="{{ site.baseurl }}/assets/images/MSMlogo.jpg" alt="UCLA MSM Lab logo" class="company-logo"> UCLA Mechanics of Soft Material Laboratory
+                <img src="{{ site.baseurl }}/assets/images/MSMlogo.jpg" alt="UCLA MSM Lab logo" class="company-logo"> UCLA Mechanics of Soft Material Lab
             </h3>
         </div>
         <h4>Position</h4>
